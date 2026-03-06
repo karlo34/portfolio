@@ -23,6 +23,6 @@ export const profile: Profile = {
   ],
   email: "marasovick1@gmail.com",
   linkedin: "https://linkedin.com/in/karlo-marasović-612947264",
-  //twitter: "https://twitter.com/yourhandle",
+  //twitter: "https://twitter.com/yourhandleblablabla",
   github: "https://github.com/karlo34",
 };
