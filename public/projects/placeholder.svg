@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#e4e4e7"/>
+  <path d="M320 180h160v90H320z" fill="#a1a1aa"/>
+  <text x="400" y="320" fill="#71717a" font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">Project image or video</text>
+</svg>

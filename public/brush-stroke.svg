@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none" aria-hidden="true">
+  <!-- Main stroke: diagonal up-right -->
+  <path d="M80 120 Q200 40 320 80 T480 60 V180 Q420 220 320 200 Q200 180 100 200 Q40 220 80 120Z" fill="#0d9488" opacity="0.95"/>
+  <!-- Second stroke: curved, opposite direction -->
+  <path d="M420 80 Q300 140 180 100 Q80 70 60 160 Q80 260 200 280 Q340 300 440 220 Q520 160 420 80Z" fill="#0f766e" opacity="0.85"/>
+  <!-- Third stroke: more horizontal, lower -->
+  <path d="M100 320 Q250 280 400 320 T550 280 V380 Q480 420 350 400 Q200 380 120 400 Q60 420 100 320Z" fill="#14b8a6" opacity="0.75"/>
+  <!-- Accent stroke: angled -->
+  <path d="M40 280 Q120 240 220 260 Q320 280 380 240 L420 320 Q320 360 200 340 Q80 320 40 280Z" fill="#0d9488" opacity="0.6"/>
+</svg>
