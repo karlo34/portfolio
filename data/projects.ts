@@ -10,7 +10,7 @@ export const projects: Project[] = [
       src: "/projects/Internship_Agilo.mp4",
       alt: "E-Commerce platform screenshot",
     },
-    demoUrl: "https://demo.example.com",
+    demoUrl: "https://agilo-internship.vercel.app",
     githubUrl: "https://github.com/karlo34/agiloInternship",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
   },
