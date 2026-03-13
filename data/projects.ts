@@ -28,6 +28,19 @@ export const projects: Project[] = [
   },
   {
     id: "project-3",
+    title: "Pinboard",
+    description: "A simple and fun project that allows users to create and manage virtual pinboards. Built with React and Firebase, it features real-time updates and a responsive design. The project is still in development so expect more features to be added soon.",
+    media: {
+      type: "image",
+      src: "/projects/pinboard.png",
+      alt: "Portfolio website preview",
+    },
+    demoUrl: "https://planboard-1.web.app/",
+    githubUrl: "https://github.com/karlo34/pinboard",
+    tags: ["HTML", "CSS", "Javascipt", "jQuery", "Firebase"],
+  },
+  {
+    id: "project-4",
     title: "Web AR",
     description: "Fun project which is still in development. It explors interacting with 3D objects in the browser using WebAR. Built with Three.js and plain HTML and CSS, it features real-time rendering and intuitive controls.",
     media: {
