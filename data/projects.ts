@@ -41,6 +41,19 @@ export const projects: Project[] = [
   },
   {
     id: "project-4",
+    title: "Job Track",
+    description: "Full-stack job application tracker with Kanban board. Built with Next.js 16, TypeScript, Tailwind CSS and Supabase (Postgres + Auth). Features include real-time board updates, reply rate analytics, and full mobile responsiveness with a tab-based mobile layout.",
+    media: {
+      type: "image",
+      src: "/projects/job-track.png",
+      alt: "Portfolio website preview",
+    },
+    demoUrl: "https://job-tracker-34.vercel.app/",
+    githubUrl: "https://github.com/karlo34/job-tracker",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Supabase", "PostgreSQL", "Vercel"],
+  },
+  {
+    id: "project-5",
     title: "Web AR",
     description: "Fun project which is still in development. It explors interacting with 3D objects in the browser using WebAR. Built with Three.js and plain HTML and CSS, it features real-time rendering and intuitive controls.",
     media: {
