@@ -9,7 +9,7 @@ export const profile: Profile = {
   yearsExperience: 2,
   phone: "+385 99 644 8804",
   certification: "",
-  image: "/profile.svg",
+  image: "/profile2.png",
   skills: [
     "HTML",
     "CSS",

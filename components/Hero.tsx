@@ -14,7 +14,7 @@ export function Hero({ profile }: HeroProps) {
     >
       <div className="mx-auto grid min-h-[85vh] max-w-6xl grid-cols-1 items-center gap-12 px-4 py-16 lg:grid-cols-[1fr_auto_1fr] lg:gap-8 lg:px-8">
         {/* Left column: heading, email, years */}
-        <div className="flex flex-col justify-center lg:pt-0">
+        <div className="flex flex-col items-center text-center justify-center lg:pt-0 lg:items-start lg:text-left">
           <h1
             id="hero-heading"
             className="text-4xl font-bold leading-tight tracking-tight text-slate-800 sm:text-5xl lg:text-5xl xl:text-6xl"
@@ -23,6 +23,7 @@ export function Hero({ profile }: HeroProps) {
             <br />
             I&apos;m {profile.name}
           </h1>
+
           {profile.email && (
             <a
               href={`mailto:${profile.email}`}
@@ -31,23 +32,22 @@ export function Hero({ profile }: HeroProps) {
               {profile.email}
             </a>
           )}
+
           {profile.yearsExperience != null && (
-            <div className="mt-10 flex items-baseline gap-3">
+            <div className="mt-10 flex items-baseline justify-center lg:justify-start gap-3 w-full">
               <span className="text-5xl font-bold text-slate-800 sm:text-6xl">
                 {profile.yearsExperience}
               </span>
-              <span className="max-w-32 text-sm font-medium uppercase leading-tight text-slate-600">
+              <span className="max-w-32 text-sm font-medium uppercase leading-tight text-slate-600 lg:text-left">
                 Years Experience
               </span>
             </div>
           )}
         </div>
 
-        {/* Center: profile image + brush stroke */}
         <div className="relative pb-10 flex flex-col justify-center lg:order-0">
           <div className="relative mb-10 flex items-center justify-center">
-            {/* Large multi-directional brush stroke behind image - visible on all screen sizes */}
-            <div className="absolute left-1/2 top-1/2 h-[380px] w-[340px] -translate-x-1/2 -translate-y-1/2 sm:h-[420px] sm:w-[480px] lg:h-[500px] lg:w-[560px]">
+            <div className="absolute left-1/2 top-1/2 h-95 w-85 -translate-x-1/2 -translate-y-1/2 sm:h-150 sm:w-120 lg:h-125 lg:w-140">
               <img
                 src="/brush-stroke.svg"
                 alt=""
@@ -60,7 +60,7 @@ export function Hero({ profile }: HeroProps) {
                 alt={profile.name}
                 fill
                 sizes="(max-width: 768px) 224px, 320px"
-                className="object-cover"
+                className="object-cover object-center"
                 priority
               />
             </div>
@@ -93,9 +93,9 @@ export function Hero({ profile }: HeroProps) {
         </div>
 
         {/* Right column: tagline, certification */}
-        <div className="flex flex-col justify-center gap-8 lg:items-end lg:text-right">
+        <div className="flex flex-col items-center justify-center gap-8 lg:items-end lg:text-right">
           {profile.heroTagline && (
-            <p className="max-w-sm text-lg font-light leading-relaxed text-slate-700">
+            <p className="max-w-2xs text-center text-lg font-normal leading-relaxed text-slate-700 lg:text-right">
               {profile.heroTagline}
             </p>
           )}
